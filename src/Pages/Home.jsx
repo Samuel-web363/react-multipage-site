@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -15,7 +14,12 @@ const Home = () => {
           This tutorial has three sections: Home, About, and Contact.
           Click below to learn more.
         </p>
-        
+
+       
+        <div className="page-links">
+          <Link to="/about" className="link-button">Go to About</Link>
+          <Link to="/contact" className="link-button">Contact Us</Link>
+        </div>
       </div>
     </div>
   );

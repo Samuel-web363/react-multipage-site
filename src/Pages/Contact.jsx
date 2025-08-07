@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -14,6 +13,10 @@ const Contact = () => {
           <button type="submit" className="form-button">Send Message</button>
         </form>
 
+        <div className="page-links">
+          <Link to="/" className="link-button">Go to Home</Link>
+          <Link to="/about" className="link-button">Learn More</Link>
+        </div>
       </div>
     </div>
   );

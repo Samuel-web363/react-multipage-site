@@ -74,6 +74,28 @@ body {
   margin-top: auto;
 }
 
+/* Link buttons inside pages */
+.page-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.link-button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #005fa3;
+}
+
+
 
 
 .page {

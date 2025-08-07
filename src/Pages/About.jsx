@@ -16,6 +16,10 @@ const About = () => {
           <li>Route parameters and more</li>
         </ul>
 
+        <div className="page-links">
+          <Link to="/" className="link-button">Back to Home</Link>
+          <Link to="/contact" className="link-button">Contact Us</Link>
+        </div>
       </div>
     </div>
   );
