@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-menu li a:hover {
+  color: #f0b429;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+
+.page {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.blog-card h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.blog-card p,
+.blog-card ul {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.blog-card ul {
+  padding-left: 20px;
+}
+
+.blog-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form-button {
+  background-color: #f0b429;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #e0a414;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-menu li a {
+    font-size: 16px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .page {
+    padding: 30px 15px;
+  }
+
+  .blog-card h1 {
+    font-size: 24px;
+  }
+
+  .blog-card p {
+    font-size: 15px;
+  }
+
+  .link-button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .form-button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
